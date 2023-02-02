@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "devDependencies": {
+    "benchmark": "^2.1.4",
+    "graphology": "latest",
+    "graphology-dag": "latest"
+  },
+  "scripts": {
+    "benchmarks": "node benchmarks/toposort.js"
+  }
+}
